@@ -6,9 +6,9 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%);
     min-height: 100vh;
-    padding: 10px;
+    padding: 20px;
     color: #333;
 }
 
@@ -27,9 +27,13 @@ header {
 }
 
 header h1 {
-    color: #667eea;
-    font-size: 28px;
-    margin-bottom: 5px;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 32px;
+    margin-bottom: 8px;
+    font-weight: 700;
 }
 
 .subtitle {
@@ -189,21 +193,23 @@ header h1 {
 
 .shuffle-btn {
     width: 100%;
-    padding: 12px;
-    background: #764ba2;
+    padding: 14px;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
     color: white;
     border: none;
-    border-radius: 8px;
-    font-size: 15px;
+    border-radius: 12px;
+    font-size: 16px;
     font-weight: 600;
     cursor: pointer;
     margin-bottom: 20px;
     transition: all 0.3s;
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
 }
 
 .shuffle-btn:hover {
-    background: #5f3a82;
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
     transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
 }
 
 .shuffle-btn:active {
@@ -216,10 +222,18 @@ header h1 {
 }
 
 .activity-card {
-    background: #f8f9fa;
-    border-radius: 12px;
-    padding: 15px;
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
     position: relative;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+    border: 1px solid #f0f0f0;
+}
+
+.activity-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
 }
 
 .activity-header {
@@ -312,19 +326,21 @@ header h1 {
 }
 
 .add-activity-btn {
-    background: #667eea;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
     color: white;
     border: none;
-    padding: 10px 20px;
-    border-radius: 8px;
+    padding: 12px 20px;
+    border-radius: 10px;
     cursor: pointer;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     width: 100%;
+    transition: all 0.3s;
 }
 
 .add-activity-btn:hover {
-    background: #5568d3;
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    transform: scale(1.02);
 }
 
 .modal {

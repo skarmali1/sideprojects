@@ -640,7 +640,8 @@ function getTodayString() {
 
 function checkDailyRotation() {
     const today = getTodayString();
-    if (lastShuffleDate !== today) {
+    // Always shuffle if we don't have activities or it's a new day
+    if (displayedActivities.length === 0 || lastShuffleDate !== today) {
         shuffleActivities();
         lastShuffleDate = today;
         saveToStorage();
