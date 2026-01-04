@@ -37,6 +37,7 @@
             <div class="filters">
                 <select id="categoryFilter">
                     <option value="all">All Categories</option>
+                    <option value="quick">⚡ Quick & Easy (10-15 min)</option>
                     <option value="outdoor">Outdoor</option>
                     <option value="indoor">Indoor</option>
                     <option value="educational">Educational</option>
@@ -52,6 +53,8 @@
                     <option value="both">Good for Both</option>
                 </select>
             </div>
+
+            <button class="shuffle-btn" onclick="manualShuffle()">🔄 Show Different Activities</button>
 
             <div id="activityList" class="activity-list">
                 <!-- Activities will be generated here -->

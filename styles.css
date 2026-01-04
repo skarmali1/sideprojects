@@ -176,7 +176,7 @@ header h1 {
 .filters {
     display: flex;
     gap: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .filters select {
@@ -185,6 +185,30 @@ header h1 {
     border: 1px solid #ddd;
     border-radius: 8px;
     font-size: 14px;
+}
+
+.shuffle-btn {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.shuffle-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+.shuffle-btn:active {
+    transform: translateY(0);
 }
 
 .activity-list {
@@ -263,6 +287,11 @@ header h1 {
 .tag.free {
     background: #e0f2f1;
     color: #00796b;
+}
+
+.tag.quick {
+    background: #fff9c4;
+    color: #f57f17;
 }
 
 .tag.age {

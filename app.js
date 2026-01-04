@@ -374,6 +374,233 @@ const ACTIVITIES = [
         ages: [2, 4],
         location: "Home",
         free: true
+    },
+
+    // Quick & Easy Activities (10-15 minutes at home)
+    {
+        id: 41,
+        name: "Freeze Dance",
+        description: "Play music, dance when it's on, freeze when it stops. Great energy burner!",
+        category: "quick",
+        ages: [2, 4],
+        location: "Home",
+        free: true
+    },
+    {
+        id: 42,
+        name: "Simon Says",
+        description: "Classic game! Touch your nose, jump, clap hands. Good for following directions",
+        category: "quick",
+        ages: [4],
+        location: "Home",
+        free: true
+    },
+    {
+        id: 43,
+        name: "Sticker Time",
+        description: "Give them a sheet of stickers and paper. Let them create!",
+        category: "quick",
+        ages: [2, 4],
+        location: "Home",
+        free: true
+    },
+    {
+        id: 44,
+        name: "Color Hunt",
+        description: "Call out a color, they find something in the house that matches",
+        category: "quick",
+        ages: [2, 4],
+        location: "Home",
+        free: true
+    },
+    {
+        id: 45,
+        name: "Read 3 Books",
+        description: "Let them pick 3 books. Snuggle and read together",
+        category: "quick",
+        ages: [2, 4],
+        location: "Home",
+        free: true
+    },
+    {
+        id: 46,
+        name: "Puzzle Time",
+        description: "Pull out age-appropriate puzzles. 2yo: chunky puzzles, 4yo: 24-piece",
+        category: "quick",
+        ages: [2, 4],
+        location: "Home",
+        free: true
+    },
+    {
+        id: 47,
+        name: "Counting Practice",
+        description: "Count toys, stairs, crackers. Make it a game!",
+        category: "quick",
+        ages: [2, 4],
+        location: "Home",
+        free: true
+    },
+    {
+        id: 48,
+        name: "Sock Match Game",
+        description: "Dump out clean socks, let them find matching pairs",
+        category: "quick",
+        ages: [4],
+        location: "Home",
+        free: true
+    },
+    {
+        id: 49,
+        name: "Animal Sounds Game",
+        description: "You say animal, they make the sound. Then switch!",
+        category: "quick",
+        ages: [2, 4],
+        location: "Home",
+        free: true
+    },
+    {
+        id: 50,
+        name: "Tape Road for Cars",
+        description: "Use painter's tape to make roads on floor for toy cars",
+        category: "quick",
+        ages: [2, 4],
+        location: "Home",
+        free: true
+    },
+    {
+        id: 51,
+        name: "Yoga for Kids",
+        description: "Do simple poses: tree, cat, dog, butterfly. YouTube has good videos",
+        category: "quick",
+        ages: [4],
+        location: "Home",
+        free: true
+    },
+    {
+        id: 52,
+        name: "Cup Stacking",
+        description: "Stack plastic cups into towers. Knock them down! Repeat.",
+        category: "quick",
+        ages: [2, 4],
+        location: "Home",
+        free: true
+    },
+    {
+        id: 53,
+        name: "Sing Songs Together",
+        description: "Wheels on the Bus, Twinkle Star, Itsy Bitsy Spider. Add hand motions!",
+        category: "quick",
+        ages: [2, 4],
+        location: "Home",
+        free: true
+    },
+    {
+        id: 54,
+        name: "Pompom Drop",
+        description: "Drop pompoms or balls into containers. Great for motor skills!",
+        category: "quick",
+        ages: [2],
+        location: "Home",
+        free: true
+    },
+    {
+        id: 55,
+        name: "Flashlight Tag",
+        description: "Close curtains, turn off lights, chase each other with flashlights",
+        category: "quick",
+        ages: [4],
+        location: "Home",
+        free: true
+    },
+    {
+        id: 56,
+        name: "Sorting Game",
+        description: "Sort toys by color, size, or type. Make it fun!",
+        category: "quick",
+        ages: [2, 4],
+        location: "Home",
+        free: true
+    },
+    {
+        id: 57,
+        name: "Balloon Keep-Up",
+        description: "Don't let the balloon touch the ground! Great indoor game",
+        category: "quick",
+        ages: [2, 4],
+        location: "Home",
+        free: true
+    },
+    {
+        id: 58,
+        name: "Drawing Time",
+        description: "Paper and crayons. Let them draw whatever they want. Ask about it!",
+        category: "quick",
+        ages: [2, 4],
+        location: "Home",
+        free: true
+    },
+    {
+        id: 59,
+        name: "Hide and Seek (Quick Version)",
+        description: "Hide in easy spots. Take turns. Count to 10!",
+        category: "quick",
+        ages: [2, 4],
+        location: "Home",
+        free: true
+    },
+    {
+        id: 60,
+        name: "Snack Prep Together",
+        description: "Let them help wash fruit, spread peanut butter, arrange crackers",
+        category: "quick",
+        ages: [2, 4],
+        location: "Home",
+        free: true
+    },
+    {
+        id: 61,
+        name: "Magazine Ripping",
+        description: "Give old magazines to rip (great for 2yo!). Talk about the pictures",
+        category: "quick",
+        ages: [2],
+        location: "Home",
+        free: true
+    },
+    {
+        id: 62,
+        name: "Mirror Play",
+        description: "Make faces in the mirror together. Name emotions!",
+        category: "quick",
+        ages: [2, 4],
+        location: "Home",
+        free: true
+    },
+    {
+        id: 63,
+        name: "Treasure Hunt",
+        description: "Hide a toy, give simple clues. 'Is it in the kitchen?'",
+        category: "quick",
+        ages: [4],
+        location: "Home",
+        free: true
+    },
+    {
+        id: 64,
+        name: "Practice Getting Dressed",
+        description: "Let them try putting on socks, shoes, jackets. Make it a game!",
+        category: "quick",
+        ages: [2, 4],
+        location: "Home",
+        free: true
+    },
+    {
+        id: 65,
+        name: "Roll a Ball Back & Forth",
+        description: "Simple but builds connection. Sit on floor and roll it to each other",
+        category: "quick",
+        ages: [2],
+        location: "Home",
+        free: true
     }
 ];
 
@@ -382,15 +609,55 @@ let currentWeekOffset = 0;
 let weeklyPlan = {};
 let favorites = new Set();
 let selectedActivity = null;
+let displayedActivities = [];
+let lastShuffleDate = null;
+const ACTIVITIES_PER_VIEW = 15; // Show 15 activities at a time
 
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
     loadFromStorage();
+    checkDailyRotation(); // Auto-rotate activities daily
     initTabs();
     renderWeeklyPlan();
     renderActivities();
     initEventListeners();
 });
+
+// Shuffle Activities Functions
+function shuffleArray(array) {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+}
+
+function getTodayString() {
+    const today = new Date();
+    return `${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}`;
+}
+
+function checkDailyRotation() {
+    const today = getTodayString();
+    if (lastShuffleDate !== today) {
+        shuffleActivities();
+        lastShuffleDate = today;
+        saveToStorage();
+    }
+}
+
+function shuffleActivities() {
+    const shuffled = shuffleArray(ACTIVITIES);
+    displayedActivities = shuffled.slice(0, ACTIVITIES_PER_VIEW);
+}
+
+function manualShuffle() {
+    shuffleActivities();
+    lastShuffleDate = getTodayString();
+    saveToStorage();
+    renderActivities();
+}
 
 // Tab Navigation
 function initTabs() {
@@ -513,7 +780,8 @@ function renderActivities() {
     const ageFilter = document.getElementById('ageFilter').value;
     const activityList = document.getElementById('activityList');
 
-    let filtered = ACTIVITIES;
+    // Use displayedActivities if we have them, otherwise use all activities
+    let filtered = displayedActivities.length > 0 ? displayedActivities : ACTIVITIES;
 
     // Filter by category
     if (categoryFilter !== 'all') {
@@ -659,11 +927,15 @@ function toggleFavorite(activityId) {
 function saveToStorage() {
     localStorage.setItem('weeklyPlan', JSON.stringify(weeklyPlan));
     localStorage.setItem('favorites', JSON.stringify([...favorites]));
+    localStorage.setItem('displayedActivities', JSON.stringify(displayedActivities));
+    localStorage.setItem('lastShuffleDate', lastShuffleDate);
 }
 
 function loadFromStorage() {
     const savedPlan = localStorage.getItem('weeklyPlan');
     const savedFavorites = localStorage.getItem('favorites');
+    const savedDisplayed = localStorage.getItem('displayedActivities');
+    const savedShuffleDate = localStorage.getItem('lastShuffleDate');
 
     if (savedPlan) {
         weeklyPlan = JSON.parse(savedPlan);
@@ -671,5 +943,13 @@ function loadFromStorage() {
 
     if (savedFavorites) {
         favorites = new Set(JSON.parse(savedFavorites));
+    }
+
+    if (savedDisplayed) {
+        displayedActivities = JSON.parse(savedDisplayed);
+    }
+
+    if (savedShuffleDate) {
+        lastShuffleDate = savedShuffleDate;
     }
 }
