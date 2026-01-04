@@ -696,6 +696,7 @@ function initEventListeners() {
     document.getElementById('categoryFilter').addEventListener('change', renderActivities);
     document.getElementById('ageFilter').addEventListener('change', renderActivities);
     document.getElementById('cancelAdd').addEventListener('click', closeModal);
+    document.getElementById('shuffleBtn').addEventListener('click', manualShuffle);
 }
 
 // Get dates for current week
