@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seattle Kids Activities Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Seattle Kids Activities</h1>
+            <p class="subtitle">Weekly planner for your 4yo & 2yo</p>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab-btn active" data-tab="planner">Weekly Plan</button>
+            <button class="tab-btn" data-tab="activities">Browse Activities</button>
+            <button class="tab-btn" data-tab="favorites">Favorites</button>
+        </nav>
+
+        <!-- WEEKLY PLANNER TAB -->
+        <div id="planner" class="tab-content active">
+            <div class="week-header">
+                <button id="prevWeek" class="week-nav">← Prev</button>
+                <h2 id="weekDisplay">This Week</h2>
+                <button id="nextWeek" class="week-nav">Next →</button>
+            </div>
+
+            <div id="weeklyPlan" class="weekly-plan">
+                <!-- Days will be generated here -->
+            </div>
+        </div>
+
+        <!-- BROWSE ACTIVITIES TAB -->
+        <div id="activities" class="tab-content">
+            <div class="filters">
+                <select id="categoryFilter">
+                    <option value="all">All Categories</option>
+                    <option value="outdoor">Outdoor</option>
+                    <option value="indoor">Indoor</option>
+                    <option value="educational">Educational</option>
+                    <option value="creative">Arts & Crafts</option>
+                    <option value="physical">Physical Play</option>
+                    <option value="free">Free Activities</option>
+                </select>
+
+                <select id="ageFilter">
+                    <option value="all">All Ages</option>
+                    <option value="2">Good for 2yo</option>
+                    <option value="4">Good for 4yo</option>
+                    <option value="both">Good for Both</option>
+                </select>
+            </div>
+
+            <div id="activityList" class="activity-list">
+                <!-- Activities will be generated here -->
+            </div>
+        </div>
+
+        <!-- FAVORITES TAB -->
+        <div id="favorites" class="tab-content">
+            <div id="favoritesList" class="activity-list">
+                <!-- Favorite activities will be shown here -->
+            </div>
+        </div>
+
+        <!-- ADD ACTIVITY MODAL -->
+        <div id="addModal" class="modal">
+            <div class="modal-content">
+                <h3>Add to which day?</h3>
+                <div id="daySelector" class="day-selector">
+                    <!-- Day buttons will be generated here -->
+                </div>
+                <button class="btn-secondary" id="cancelAdd">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
